@@ -1,6 +1,6 @@
 <?php
 
-namespace gotoAndDev\GravityFormsComposerInstaller\Exception;
+namespace aihowes\GravityFormsComposerInstaller\Exception;
 
 class DownloadException extends \Exception
 {
