@@ -1,13 +1,13 @@
 <?php
 
-namespace gotoAndDev\GravityFormsComposerInstaller;
+namespace aihowes\GravityFormsComposerInstaller;
 
 use Exception;
 use Composer\Plugin\PluginInterface;
 use Composer\Util\StreamContextFactory;
 use Composer\Plugin\PreFileDownloadEvent;
 use Composer\EventDispatcher\EventSubscriberInterface;
-use gotoAndDev\GravityFormsComposerInstaller\Exception\DownloadException;
+use aihowes\GravityFormsComposerInstaller\Exception\DownloadException;
 
 class Plugin extends \FFraenz\PrivateComposerInstaller\Plugin implements PluginInterface, EventSubscriberInterface
 {
