@@ -1,5 +1,5 @@
 {
-  "name": "gotoandplay/gravityforms-composer-installer",
+  "name": "aihowes/gravityforms-composer-installer",
   "description": "A composer install helper for Gravity Forms",
   "type": "composer-plugin",
   "license": "MIT",
@@ -41,11 +41,11 @@
   },
   "autoload": {
     "psr-4": {
-      "gotoAndDev\\GravityFormsComposerInstaller\\": "src/GravityFormsComposerInstaller"
+      "aihowes\\GravityFormsComposerInstaller\\": "src/GravityFormsComposerInstaller"
     }
   },
   "extra": {
-    "class": "gotoAndDev\\GravityFormsComposerInstaller\\Plugin",
+    "class": "aihowes\\GravityFormsComposerInstaller\\Plugin",
     "plugin-modifies-downloads": true
   }
 }
